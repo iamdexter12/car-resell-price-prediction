@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>TEST</title>
+</head>
+
+<body>
+    <h1>Price prediction of old car</h1>
+    <form action="" id="myForm">
+        <!-- company , name,milegge,seat,location,fuel type,trnsmnn,owner type, -->
+        <div>
+            <input type="number" placeholder="YEAR" name="YEAR" required>
+            <input type="number" placeholder="KILOMETERS_DRIVEN" name="KILOMETERS_DRIVEN" required>
+            <input type="number" placeholder="MILEAGE" name="MILEAGE" required>
+        </div>
+        <div>
+            <input type="number" placeholder="ENGINE" name="ENGINE" required>
+            <input type="number" placeholder="POWER" name="POWER" required>
+            <input type="number" placeholder="SEATS" name="SEATS" required>
+        </div>
+        <div>
+            <input type="text" placeholder="COMPANY" name="COMPANY" required>
+            <input type="text" placeholder="NAME" name="NAME" required>
+            <input type="text" placeholder="LOCATION" name="LOCATION" required>
+        </div>
+        <div>
+            <input type="text" placeholder="FUEL_TYPE" name="FUEL_TYPE" required>
+            <input type="text" placeholder="TRANSMISSION" name="TRANSMISSION" required>
+            <input type="text" placeholder="OWNER_TYPE" name="OWNER_TYPE" required>
+        </div>
+
+        <button type="submit">SUBMIT</button>
+    </form>
+    <div class="result noDisplay">
+        <h1 id="main_result">ESTIMATED PRICE : 2000 </h1>
+    </div>
+</body>
+
+</html>
